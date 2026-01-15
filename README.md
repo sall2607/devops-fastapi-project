@@ -89,6 +89,8 @@ Basic request tracing implemented via middleware
 
 🔐 Security
 
+- Static Analysis: Bandit
+- Dynamic Analysis: OWASP ZAP
 SAST: Bandit static code analysis
 
 DAST: OWASP ZAP runtime security scanning
@@ -110,39 +112,3 @@ Oulimata Sall
 
 ---
 
-## 📄 1.2 .gitignore (version professionnelle)
-
-👉 **À la racine**
-
-```bash
-touch .gitignore
-
-
-👉 Contenu :
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-.venv/
-venv/
-
-# Environment variables
-.env
-
-# IDE
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-
-👉 Commit
-
-git add README.md .gitignore
-git commit -m "Add complete README and gitignore"
